@@ -1,0 +1,65 @@
+
+irina@irina-linux:~$ mkdir 'Игрушки для дошколят'
+
+irina@irina-linux:~$ mkdir 'Игрушки для школьников'
+
+irina@irina-linux:~$ cd 'Игрушки для школьников'
+
+irina@irina-linux:~/Игрушки для школьников$ touch Роботы
+
+irina@irina-linux:~/Игрушки для школьников$ touch Конструктор
+
+irina@irina-linux:~/Игрушки для школьников$ touch Настольные_Игры
+
+irina@irina-linux:~/Игрушки для школьников$ ls
+
+Конструктор  Настольные_Игры  Роботы
+
+irina@irina-linux:~/Игрушки для школьников$ cd ..
+
+irina@irina-linux:~$ cd 'Игрушки для дошколят'
+
+irina@irina-linux:~/Игрушки для дошколят$ touch Мягкие_Игрушки
+
+irina@irina-linux:~/Игрушки для дошколят$ touch Куклы
+
+irina@irina-linux:~/Игрушки для дошколят$ touch Машинки
+
+irina@irina-linux:~/Игрушки для дошколят$ cd ..
+
+irina@irina-linux:~$ mkdir 'Имя Игрушки'
+
+irina@irina-linux:~$ mv 'Игрушки для дошколят' 'Имя Игрушки'
+
+irina@irina-linux:~$ mv 'Игрушки для школьников' 'Имя Игрушки'
+
+irina@irina-linux:~$ mv 'Имя Игрушки' 'Игрушки'
+
+irina@irina-linux:~$ cd 'Игрушки'
+
+irina@irina-linux:~/Игрушки$ ls -а -l
+
+итого 16
+
+drwxrwxr-x 4 irina irina 4096 лют 19 21:06  .
+
+drwxrwxr-x 3 irina irina 4096 лют 19 21:07  ..
+
+drwxrwxr-x 3 irina irina 4096 лют 19 20:22 'Игрушки для дошколят'
+
+drwxrwxr-x 2 irina irina 4096 лют 19 20:57 'Игрушки для школьников'
+
+irina@irina-linux:~/Игрушки/Имя Игрушки$ cd ..
+
+irina@irina-linux:~/Игрушки$ cd ..
+
+irina@irina-linux:~$ sudo snap install chromium
+
+
+
+irina@irina-linux:~$ sudo snap remove chromium
+
+
+irina@irina-linux:~$ crontab -e
+
+crontab: installing new crontab
